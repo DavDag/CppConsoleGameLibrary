@@ -139,12 +139,6 @@ class Game
 			buffer[y][x].Char.AsciiChar	= c;
 		}
 
-		void FillCellUnicode(SHORT x, SHORT y, WCHAR c, WORD attr)
-		{
-			buffer[y][x].Attributes			= attr;
-			buffer[y][x].Char.UnicodeChar	= c;
-		}
-
 		/**
 		 **	DrawBuffer():
 		 **	
