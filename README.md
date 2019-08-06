@@ -40,3 +40,8 @@ class ExampleGame: public Game
   }
 }
 ```
+
+## Version
+- 1.0 Uploaded on GitHub !
+- 1.1 Added function to update only a region of the buffer.
+
