@@ -5,14 +5,9 @@ Fast &amp; Easy to use C++ Library to make console games.
 Because it's open source, easy to use and to add to your project but especially ... because *ITS FAST*.
 
 ### Functionalities
-- Fill a cell using X & Y coordinates and an Ascii Char with some Attributes.
-- Fill the entire buffer.
-- Draw the buffer into the console in one call !
-- Check for key pressing state.
-- Setting console title.
-- Setting window & buffer size.
-- Show or Hide cursor.
-- Move cursor using X & Y positions.
+- It manage Cursor, Window, buffer and keyboard.
+- You can simply call two basic functions to get a fast cpp console game.
+- Some ```#define``` to help you with colors and keys.
 
 ### How to use it
 1) Start donwloading the *'.hpp'* file.
