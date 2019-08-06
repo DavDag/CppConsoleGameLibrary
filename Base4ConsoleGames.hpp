@@ -150,6 +150,22 @@ class Game
 		{
 			WriteConsoleOutputA(consoleOutput, (CHAR_INFO*) buffer, bufferSize, bufferCoord, &region);
 		}
+
+		/**
+		 ** DrawBufferRegion(SHORT x, SHORT y, SHORT columns, SHORT rows):
+		 **
+		 **		Draw a region of the buffer into the screen.
+		 **		The region is defined by the topleft corner
+		 **		[x, y] coordinates and the number of rows
+		 **		and columns.
+		 **
+		 ** 	Call it after have drawned something.
+		 **/
+		void DrawBufferRegion(SHORT x, SHORT y, SHORT columns, SHORT rows)
+		{
+			SMALL_RECT region = {x, y, x + columns - 1, y + rows - 1};
+			WriteConsoleOutputA(consoleOutput, (CHAR_INFO*)buffer, bufferSize, {x, y}, &region);
+		}
 		
 		/**
 		 **	FillBuffer(CHAR c, WORD attr):
