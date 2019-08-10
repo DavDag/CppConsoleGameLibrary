@@ -38,5 +38,9 @@ class ExampleGame: public Game
 
 ## Version
 - 1.0 Uploaded on GitHub !
-- 1.1 Added function to update only a region of the buffer.
-
+- 1.1 
+	- Added function to update only a region of the buffer.
+- 1.2 
+	- Added function to draw Frames and Text !
+  - Added function to check if a Key Is Pressed.
+  - Some minor bug fixes.
