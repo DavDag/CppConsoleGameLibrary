@@ -30,6 +30,7 @@ class ExampleGame: public Game
   {
     // Clear all with [FillBuffer]
     // Draw Something on the buffer [FillCell]
+    // or using [DrawFrame] and [DrawWords]
     // Game Logic
     DrawBuffer();
   }
